@@ -1,0 +1,22 @@
+.main {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 32px;
+    background: #ffe4c4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionContainer{
+    background: whitesmoke;
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.answerContainer{
+    
+}

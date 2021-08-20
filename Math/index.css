@@ -7,6 +7,13 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+#question {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
 .questionContainer{
     background: whitesmoke;
     width: 60%;
@@ -15,8 +22,37 @@
     margin-right: 20%;
     position: relative;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
 }
 
 .answerContainer{
-    
+    margin-top: 5%;
+    text-align: center;
+    line-height: 15px;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .btnAB {
+    margin-left: 20px;
+    margin-left: 38%;
+}
+
+.btnCD{
+    margin-left: 15px;
+    margin-left: 38%;
+} */
+
+.height {
+    width: 40%;
+    height: 50px;
+   margin-top: 10px;
+   margin-left: 30px;
+   border-radius: 40%;
+}
+.height:hover {
+    background-color: coral;
 }
